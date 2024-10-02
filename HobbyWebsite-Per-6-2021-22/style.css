@@ -1,0 +1,65 @@
+/* start nav menu css */
+
+/* replace each ul with .nav-list
+   replace each li with .nav-item
+*/
+
+
+.nav-item {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.all {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+}
+
+
+body {
+
+  background-color: rgb(255, 245, 233);
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(116, 171, 118);
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: rgb(1, 41, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover:not(.active) {
+  background-color: rgb(153, 209, 146);
+}
+
+.active {
+  background-color: rgb(20, 165, 20);
+}
+
+/* end nav menu css */
+
+
+
+/*marnines:*/
+#main {
+  width: 55%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgb(255, 245, 233);
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:12px;
+  padding-bottom:12px;
+}
